@@ -100,7 +100,7 @@ def edit_docx(template, output, values):
         ('quince de  octubre del año dos mil veintiséis',fecha_en_palabras(values['fecha_notificacion'])),
         ('día quince de octubre del año dos mil veintiséis',fecha_en_palabras(values['fecha_notificacion'])),
         ('de  octubre del año dos mil veintiséis', 'de '+fecha_en_palabras(values['fecha_notificacion'])),
-        ('veinticuatro',numero(int(values['anio_solicitud']))),
+        ('En el año dos mil veinticuatro','En el año '+numero(int(values['anio_solicitud']))),
     ]
     # More specific replacements precede the year-only substitution.
     replacements.sort(key=lambda item:len(item[0]), reverse=True)
