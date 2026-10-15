@@ -73,9 +73,6 @@ for(const p of doc.getElementsByTagNameNS(W,'p')){let txt=p.textContent;const pa
 replaceResolutionDates(doc,v.numero,dateWords(v.fecha_resolucion));
 const rep=[
 ['trece de enero  de dos mil veintiséis',dateWords(v.fecha_resolucion)],
-['día quince de  octubre del año dos mil veintiséis',dateNotice(v.fecha_notificacion,true)],
-['quince de  octubre del año dos mil veintiséis',dateNotice(v.fecha_notificacion,false)],
-['de  octubre del año dos mil veintiséis',dateNotice(v.fecha_notificacion,false)],
 ['ochenta y cinco años',words(Number(v.edad))+' años'],
 ['DGPS-B-523591219520082024',v.numero],['Justiniano Carrera',v.nombre],['2716102710207',v.dpi],['Aldea Suquinay',v.direccion],['San Antonio La Paz',v.municipio],['El Progreso',v.departamento],['Casado',v.estado],['42073950',v.telefono||'42073950'],['Agricultor',v.ocupacion],['agricultor',v.ocupacion.toLocaleLowerCase('es')],['guatemalteco',v.ocupacion==='Ama de casa'?'guatemalteca':'guatemalteco'],['En el año dos mil veinticuatro','En el año '+words(Number(v.anio))]
 ];rep.sort((a,b)=>b[0].length-a[0].length);for(const [oldText,newText] of rep)replaceAll(doc,oldText,newText);return new XMLSerializer().serializeToString(doc)}
