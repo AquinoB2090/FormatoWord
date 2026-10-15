@@ -4,4 +4,6 @@ Opción rápida: abre Editor_DGPS.html con Chrome, Edge o Firefox, llena los cam
 
 La página no necesita instalar Python, conexión a internet ni seleccionar la plantilla. Incluye la plantilla original y crea un archivo Word (.docx) en la carpeta de descargas del navegador. Los datos se procesan localmente en tu dispositivo.
 
+Las fechas aceptan día y mes con uno o dos dígitos, por ejemplo 5/4/2026 o 05/04/2026; también aceptan formato ISO: 2026-04-05.
+
 Revisa el documento descargado antes de imprimirlo o presentarlo.
