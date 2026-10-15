@@ -1,0 +1,11 @@
+﻿EDITOR DE FORMATO DGPS
+
+Para abrir:
+1. Extrae esta carpeta completa si la recibiste comprimida.
+2. Haz doble clic en Abrir_Editor.bat.
+3. Completa los datos y pulsa “Crear documento Word…”.
+4. Abre el archivo generado y revisa que la información sea correcta antes de imprimir o presentar.
+
+Requisitos: Windows con Python 3 instalado (la aplicación utiliza módulos incluidos con Python; no requiere instalar paquetes adicionales). La plantilla Plantilla_DGPS.docx debe permanecer junto a Editor_DGPS.py.
+
+El programa conserva el archivo de plantilla y crea un documento nuevo. La edad y las fechas se convierten a palabras como aparecen en el formato.

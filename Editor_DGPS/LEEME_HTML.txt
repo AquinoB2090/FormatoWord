@@ -1,0 +1,7 @@
+﻿EDITOR HTML DE FORMATO DGPS
+
+Opción rápida: abre Editor_DGPS.html con Chrome, Edge o Firefox, llena los campos y pulsa «Crear documento Word».
+
+La página no necesita instalar Python, conexión a internet ni seleccionar la plantilla. Incluye la plantilla original y crea un archivo Word (.docx) en la carpeta de descargas del navegador. Los datos se procesan localmente en tu dispositivo.
+
+Revisa el documento descargado antes de imprimirlo o presentarlo.
